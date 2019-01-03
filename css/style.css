@@ -1,0 +1,91 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+nav {
+    font-size: 18px;
+    color: #09162A;
+    font-family: 'Prompt', sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.0241176em;
+    align: center;
+}
+
+header {}
+
+.directions {
+    background-image: url(../images/directions-gradient.png);
+    width: 375px;
+    height: 44px;
+}
+
+.bus-container {
+    background: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 347px;
+    height: 67px;
+    left: 17.5px;
+    top: 129px;
+}
+
+.section-titles {
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    position: center;
+
+}
+
+h2 {
+    font-family: 'Prompt', sans-serif;
+    color: #09162A;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Prompt', sans-serif;
+    color: #09162A;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.reroute {
+    background-image: url(../images/reroute-gradient.png);
+    width: 375px;
+    height: 44px;
+}
+
+.bus-rerouted {}
+
+.out-of-service {
+    background-image: url(../images/outofservice-gradient.png);
+    width: 375px;
+    height: 44px;
+    position: center;
+}
+
+.bus-out-of-service {}
+
+footer {
+    
+}
