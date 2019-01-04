@@ -4,12 +4,12 @@
 
 body {
     background-color: #FFFFFF;
+    font-family: 'Prompt', sans-serif;
 }
 
 nav {
     font-size: 18px;
     color: #09162A;
-    font-family: 'Prompt', sans-serif;
     font-size: 100%;
     font-style: normal;
     font-weight: normal;
@@ -22,9 +22,9 @@ nav {
 header {}
 
 .directions {
-    background-image: url(../images/directions-gradient.png);
     width: 375px;
     height: 44px;
+    background-image: url(../images/directions-gradient.svg);
 }
 
 .bus-container {
@@ -38,7 +38,6 @@ header {}
 }
 
 .section-titles {
-    font-family: 'Prompt', sans-serif;
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
@@ -46,11 +45,9 @@ header {}
     text-align: center;
     color: #FFFFFF;
     position: center;
-
 }
 
 h2 {
-    font-family: 'Prompt', sans-serif;
     color: #09162A;
     font-style: normal;
     font-weight: 600;
@@ -59,18 +56,24 @@ h2 {
     text-align: left;
 }
 
-h3 {
-    font-family: 'Prompt', sans-serif;
+.frequency {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    font-size: 11px;
+}
+
+.destination {
     color: #09162A;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 22px;
     font-size: 14px;
     text-align: left;
 }
 
 .reroute {
-    background-image: url(../images/reroute-gradient.png);
+    background-image: url(../images/reroute-gradient.svg);
     width: 375px;
     height: 44px;
 }
@@ -78,7 +81,7 @@ h3 {
 .bus-rerouted {}
 
 .out-of-service {
-    background-image: url(../images/outofservice-gradient.png);
+    background-image: url(../images/outofservice-gradient.svg);
     width: 375px;
     height: 44px;
     position: center;
@@ -86,6 +89,4 @@ h3 {
 
 .bus-out-of-service {}
 
-footer {
-    
-}
+footer {}
