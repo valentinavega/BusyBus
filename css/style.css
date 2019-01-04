@@ -2,49 +2,88 @@
     box-sizing: border-box;
 }
 
+html {
+  background-color: #DDDDDD;
+}
+
 body {
     background-color: #FFFFFF;
     font-family: 'Prompt', sans-serif;
+    margin: 0 auto;
+    padding: 72px 0 75px;
+    width: 375px;
+}
+
+.iphone-wrapper {
+  height: 667px;
+  overflow: scroll;
 }
 
 nav {
-    font-size: 18px;
-    color: #09162A;
-    font-size: 100%;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.0241176em;
-    align: center;
+    position: fixed;
+    top: 0;
+    width: 375px;
+    height: 72px;
+    background-color: white;
+    z-index: 1;
 }
 
-header {}
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.nav-title {
+  font-size: 18px;
+  color: #09162A;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.0241176em;
+  padding: 10px;
+}
+
+.bus-stop {
+  vertical-align: middle;
+}
+
+.bus-stop-arrow {
+  vertical-align: middle;
+  float: left;
+}
 
 .directions {
-    width: 375px;
-    height: 44px;
     background-image: url(../images/directions-gradient.svg);
 }
 
 .bus-container {
-    background: #FFFFFF;
+    background: #F7F7F7;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     width: 347px;
     height: 67px;
-    left: 17.5px;
-    top: 129px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+}
+
+.bus-container h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
 .section-titles {
+    width: 100%;
+    height: 44px;
     font-style: normal;
     font-weight: bold;
     line-height: 22px;
     font-size: 20px;
     text-align: center;
     color: #FFFFFF;
-    position: center;
+    padding-top: 10px;
 }
 
 h2 {
@@ -61,6 +100,23 @@ h2 {
     font-weight: 300;
     line-height: 22px;
     font-size: 11px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 110px;
+    text-align: center;
+}
+
+.frequency-lilac {
+  background-color: #CCB3FB;
+}
+
+.frequency-green {
+  background-color: #19FFB2;
+}
+
+.frequency-orange {
+  background-color: #FDD17C;
 }
 
 .destination {
@@ -74,19 +130,12 @@ h2 {
 
 .reroute {
     background-image: url(../images/reroute-gradient.svg);
-    width: 375px;
-    height: 44px;
 }
 
 .bus-rerouted {}
 
 .out-of-service {
     background-image: url(../images/outofservice-gradient.svg);
-    width: 375px;
-    height: 44px;
-    position: center;
 }
 
 .bus-out-of-service {}
-
-footer {}
