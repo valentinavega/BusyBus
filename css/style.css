@@ -4,13 +4,14 @@
 
 html {
   background-color: #DDDDDD;
+  overflow-y: hidden;
 }
 
 body {
     background-color: #FFFFFF;
     font-family: 'Prompt', sans-serif;
     margin: 0 auto;
-    padding: 72px 0 75px;
+    padding: 72px 0 52px;
     width: 375px;
 }
 
