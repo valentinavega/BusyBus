@@ -133,10 +133,6 @@ h2 {
     background-image: url(../images/reroute-gradient.svg);
 }
 
-.bus-rerouted {}
-
 .out-of-service {
     background-image: url(../images/outofservice-gradient.svg);
 }
-
-.bus-out-of-service {}
