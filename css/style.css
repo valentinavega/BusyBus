@@ -82,7 +82,6 @@ footer {
 
 .bus-container {
   background: #FFFFFF;
-  /*-webkit-box-shadow: 0px 0px 5px 0px rgba(212,208,212,1); */
   border: 1px solid #DFDEDE;
   border-radius: 5px;
   width: 347px;
@@ -138,11 +137,11 @@ h2 {
 }
 
 .frequency-lilac {
-  background-color: #BCA1FF;
+  background-color: #C6B0FF;
 }
 
 .frequency-blue {
-  background-color: #8FC1FE;
+  background-color: #ADD1FE;
 }
 
 .destination {
