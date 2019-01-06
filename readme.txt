@@ -1,1 +1,1 @@
-Coded version of screen design from Visual Design
+Coded version of screen design from Visual Challenge
