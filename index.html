@@ -6,8 +6,8 @@
   <meta charset="utf-8">
   <meta name="author" content="Val Vega">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="reset" href="css/reset.css">
   <link href="https://fonts.googleapis.com/css?family=Prompt:300,400,600" rel="stylesheet">
 </head>
 
@@ -18,73 +18,91 @@
       <img class="bus-stop-arrow" src="images/Iconbackarrow.svg" />
       <span class="bus-stop">Washington & State</span>
     </div>
-    </nav>
+  </nav>
+  <section>
     <div class="directions section-titles">Eastbound</div>
-    <div class="bus-container">
-      <h2>Bus 60</h2>
-      <span class="frequency frequency-green">Every 20 minutes</span>
-      <div class="destination">to Randolph/Harbor Dr.</div>
+    <ul>
+      <li class="bus-container">
+        <h2>Bus 60</h2>
+        <span class="frequency frequency-green">Every 20 minutes</span>
+        <div class="destination">to Randolph/Harbor Dr.</div>
+      </li>
+      <li class="bus-container">
+        <h2>Bus 124</h2>
+        <span class="frequency frequency-green">Every 10 minutes</span>
+        <div class="destination">to Navy Pier</div>
+      </li>
+    </ul>
+  </section>
+  <secction>
+  <div class="directions section-titles">Northbound</div>
+  <ul>
+  <li class="bus-container">
+    <h2>Bus 151</h2>
+    <span class="frequency frequency-green">Every 16 minutes</span>
+    <div class="destination">to Devon/Clark</div>
+  </li>
+</ul>
+</section>
+<section>
+  <div class="directions section-titles">Southbound</div>
+  <ul>
+  <li class="bus-container">
+    <h2>Bus J14</h2>
+    <span class="frequency frequency-green">Every 15 minutes</span>
+    <div class="destination">to 103rd/Stony Island</div>
+  </li>
+  <li class="bus-container">
+    <h2>Bus 124</h2>
+    <span class="frequency frequency-green">Every 10 minutes</span>
+    <div class="destination">to Navy Pier</div>
+  </li>
+</ul>
+</section>
+<section>
+  <div class="reroute section-titles">Reroute</div>
+  <ul>
+    <li class="bus-container">
+      <h2>Bus 6x</h2>
+      <span class="frequency frequency-lilac">N/A</span>
+      <div class="destination">to Jackson Park Express</div>
+    </li>
+  </ul>
+</section>
+<section>
+  <div class="out-of-service section-titles">Out of Service</div>
+  <ul>
+  <div class="bus-out-of-service">
+    <li class="bus-container">
+      <h2>Bus 4</h2>
+      <span class="frequency frequency-blue">Resumes: 12:10 AM</span>
+      <div class="destination">to Cottage Grove</div>
+    </li>
+    <li class="bus-container">
+      <h2>Bus 20</h2>
+      <span class="frequency frequency-blue">Resumes: 12:10 AM</span>
+      <div class="destination">to Madison</div>
+    </li>
+    <li class="bus-container">
+      <h2>Bus 157</h2>
+      <span class="frequency frequency-blue">Resumes: 6:10 AM</span>
+      <div class="destination">to Streeterville/Taylor</div>
+    </li>
+  </div>
+</ul>
+</section>
+  <footer>
+    <div class="footer-section">
+      <img src="images/home-icon.svg" />
+      <span>Home</span>
+    </div><div class="footer-section">
+      <img src="images/saved-buses-icon.svg" />
+      <span>Saved Buses</span>
+    </div><div class="footer-section">
+      <img src="images/alerts-icon.svg" />
+      <span>Alerts</span>
     </div>
-    <div class="bus-container">
-      <h2>Bus 124</h2>
-      <span class="frequency frequency-green">Every 10 minutes</span>
-      <div class="destination">to Navy Pier</div>
-    </div>
-    <div class="directions section-titles">Northbound</div>
-    <div class="bus-container">
-      <h2>Bus 151</h2>
-      <span class="frequency frequency-green">Every 16 minutes</span>
-      <div class="destination">to Devon/Clark</div>
-    </div>
-    <div class="directions section-titles">Southbound</div>
-    <div class="bus-container">
-      <h2>Bus J14</h2>
-      <span class="frequency frequency-green">Every 15 minutes</span>
-      <div class="destination">to 103rd/Stony Island</div>
-    </div>
-    <div class="bus-container">
-      <h2>Bus 124</h2>
-      <span class="frequency frequency-green">Every 10 minutes</span>
-      <div class="destination">to Navy Pier</div>
-    </div>
-    <div class="reroute section-titles">Reroute</div>
-    <div class="bus-rerouted">
-      <div class="bus-container">
-        <h2>Bus 6x</h2>
-        <span class="frequency frequency-lilac">N/A</span>
-        <div class="destination">to Jackson Park Express</div>
-      </div>
-    </div>
-    <div class="out-of-service section-titles">Out of Service</div>
-    <div class="bus-out-of-service">
-      <div class="bus-container">
-        <h2>Bus 4</h2>
-        <span class="frequency frequency-blue">Resumes: 12:10 AM</span>
-        <div class="destination">to Cottage Grove</div>
-      </div>
-      <div class="bus-container">
-        <h2>Bus 20</h2>
-        <span class="frequency frequency-blue">Resumes: 12:10 AM</span>
-        <div class="destination">to Madison</div>
-      </div>
-      <div class="bus-container">
-        <h2>Bus 157</h2>
-        <span class="frequency frequency-blue">Resumes: 6:10 AM</span>
-        <div class="destination">to Streeterville/Taylor</div>
-      </div>
-    </div>
-    <footer>
-      <div class="footer-section">
-        <img src="images/home-icon.svg" />
-        <span>Home</span>
-      </div><div class="footer-section">
-        <img src="images/saved-buses-icon.svg" />
-        <span>Saved Buses</span>
-      </div><div class="footer-section">
-        <img src="images/alerts-icon.svg" />
-        <span>Alerts</span>
-        </div>
-    </footer>
+  </footer>
 </body>
 
 </html>
