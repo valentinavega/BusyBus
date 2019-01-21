@@ -135,16 +135,16 @@ h2 {
   text-align: center;
 }
 
-.frequency-green {
-  background-color: #94FFBF;
-}
-
-.frequency-lilac {
-  background-color: #C6B0FF;
-}
-
 .frequency-blue {
   background-color: #ADD1FE;
+}
+
+.frequency-red {
+  background-color: #FF9292;
+}
+
+.frequency-gray {
+  background-color: #C2C2C2;
 }
 
 .destination {
