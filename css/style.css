@@ -71,15 +71,15 @@ footer {
 }
 
 .directions {
-  background: linear-gradient(180deg, #4EFFCA -22.73%, #3AC198 100%);
+  background: linear-gradient(180deg, #6EADF1 -22.73%, #0078FC 100%);
 }
 
 .reroute {
-  background: linear-gradient(180deg, #A37EFF 0%, #5F21FC 111.18%);
+  background: linear-gradient(180deg, #FB4242 0%, #FF2E2E 111.18%);
 }
 
 .out-of-service {
-  background: linear-gradient(180deg, #7FC0EE 0%, #008FF6 80.68%);
+  background: linear-gradient(180deg, #787878 0%, #5F5F5F 80.68%);
 }
 
 .bus-container {
